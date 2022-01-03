@@ -108,6 +108,28 @@ h2 {
   margin: 15px 0;
 }
 
+.profile-strengths-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  background-color: #b0b0b0;
+  box-shadow: inset 0px 0px 5px var(--dark-gray);
+}
+
+.profile-strengths-title {
+  text-align: center;
+}
+
+.profile-strengths-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: bold;
+  color: var(--dark-maroon);
+}
+
 /* contacts*/
 .contacts-item {
   margin: 15px;
