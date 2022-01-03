@@ -1,5 +1,6 @@
 ### Daniil Kochkin
 Junor frontend developer
+
 ***
 
 #### Contacts
@@ -23,6 +24,7 @@ I am 25 years old and the last 5 years I was trying to become a part of many dif
 + JS
 + Git
 + BEM
+
 ***
 
 #### Code example:
@@ -39,10 +41,12 @@ function highAndLow(dat){
     return strNumb[0].concat(` ${strNumb[strNumb.length - 1]}`);
 }
 ```
+
 ***
 
 #### Work exprerience:
 Got no work experience, but try hard to simulate it while studying.
+
 ***
 
 #### Education:
@@ -57,11 +61,13 @@ Got no work experience, but try hard to simulate it while studying.
 
 **PetrSU**:
 * [foreign languages faculty](https://petrsu.ru/structure/450/institutinostrannykh) (2.5 years)
+
 ***
 
 #### English
 **B1-B2** (upper-intermediate)
 [IELTS](https://ielts.ru/) overall score: **7.0**
+
 ***
 
 _Thanks for your time!_
