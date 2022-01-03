@@ -1,14 +1,34 @@
+/************ GENERAL STYLES ************/
 @font-face {
   font-family: Montserrat;
   src: url("assets/fonts/Montserrat.ttf");
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Montserrat, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+
+/************ HEADER ************/
+.avatar {
+  width: 20%;
+  max-width: 300px;
+}
+
+
+/************ FOOTER ************/
+.rss-logo {
+  width: 10%;
+  max-width: 150px;
 }
