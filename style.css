@@ -5,9 +5,12 @@
 }
 
 :root{
-  --light-gray: #dddddd;
+  --border-radius: 7px;
+  /* colors */
+  --light-gray: #cdcdcd;
   --gray1: #888888;
   --gray2: #666666;
+  --dark-gray: #333333;
   --dark-cyan: #22999e;
   --light-cyan: #77dee2;
 }
@@ -19,31 +22,51 @@
 }
 
 body {
+  font-size: 18px;
   font-family: Montserrat, sans-serif;
   background: linear-gradient(var(--gray1), var(--gray2));
 }
 
 .container {
-  margin: 0 auto;
   width: 80%;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section{
+  width: 80%;
+  margin: 30px 0;
+  padding: 40px 80px;
+
+  border-radius: var(--border-radius);
   background-color: var(--light-gray);
+  box-shadow: 7px 7px 12px var(--dark-gray);
 }
 
 /************ HEADER ************/
+
+
+/************ MAIN ************/
+.main{
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*profile*/
+.profile-section{
+  width: 100%;
+}
+
 .main-title{
   color: var(--dark-cyan);
 }
 .avatar {
   width: 20%;
   max-width: 300px;
-}
-
-a{
-  color: var(--light-cyan)
 }
 
 
