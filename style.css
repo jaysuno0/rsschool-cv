@@ -36,6 +36,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+ul{
+  list-style: none;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
@@ -125,17 +129,40 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  list-style: none;
   font-weight: bold;
   color: var(--dark-maroon);
 }
 
-/* contacts*/
+/* contacts */
+.contacts-list {
+  list-style: disc;
+}
+
 .contacts-item {
   margin: 15px;
 }
+
 .contacts-link {
   margin-left: 10px;
+}
+
+/* skills */
+.skills-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.skills-list-item{
+  width: 20%;
+  font-size: 22px;
+}
+
+.skills-logo {
+  max-width: 50%;
+  margin-top: 10px;
 }
 
 
