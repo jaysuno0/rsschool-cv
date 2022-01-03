@@ -1,7 +1,7 @@
 /************ GENERAL STYLES ************/
 @font-face {
-  font-family: Montserrat;
-  src: url("assets/fonts/Montserrat.ttf");
+  font-family: Inter;
+  src: url("assets/fonts/Inter.ttf");
 }
 
 :root {
@@ -23,13 +23,18 @@
 
 body {
   font-size: 20px;
-  font-family: Montserrat, sans-serif;
+  font-family: Inter, sans-serif;
+  word-spacing: 4px;
   background: linear-gradient(var(--gray1), var(--gray2));
 }
 
 a {
   text-decoration: none;
+  font-weight: bold;
   color: var(--dark-maroon);
+}
+a:hover{
+  text-decoration: underline;
 }
 
 h2 {
@@ -54,6 +59,10 @@ ul{
   border-radius: var(--border-radius);
   background-color: var(--light-gray);
   box-shadow: 7px 7px 12px var(--dark-gray);
+}
+
+.section-title {
+  text-align: center;
 }
 
 .right-side-section {
@@ -128,8 +137,9 @@ ul{
 .profile-strengths-list {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-weight: bold;
+  font-size: 22px;
   color: var(--dark-maroon);
 }
 
@@ -155,7 +165,7 @@ ul{
   align-items: flex-start;
 }
 
-.skills-list-item{
+.skills-list-item {
   width: 20%;
   font-size: 22px;
 }
@@ -163,6 +173,11 @@ ul{
 .skills-logo {
   max-width: 50%;
   margin-top: 10px;
+}
+
+/* code */
+.code-task-text {
+  margin-bottom: 20px;
 }
 
 
@@ -178,7 +193,7 @@ ul{
   color: var(--light-gray);
 }
 
-.footer-link{
+.footer-link {
   margin: 0 20px;
 }
 
@@ -187,6 +202,6 @@ ul{
   max-width: 150px;
 }
 
-.footer-year{
+.footer-year {
   font-size: 60px;
 }

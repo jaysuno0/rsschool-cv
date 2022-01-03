@@ -81,7 +81,21 @@
         </section>
 
         <section class="section" id="code">
-          <h2 class="section-title"></h2>
+          <h2 class="section-title">code example</h2>
+          <a href="https://www.codewars.com/kata/554b4ac871d6813a03000035" target="_blank">task from codewars:</a>
+          <p class="code-task-text">In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number. Output string must be two numbers separated by a single space, and highest number is first.</p>
+          <pre>
+            <code>
+function highAndLow(dat){
+  let strNumb = dat.split(' ');
+  strNumb.sort((a, b) =>{
+    return a-b;
+    }).reverse();
+
+  return strNumb[0].concat(` ${strNumb[strNumb.length - 1]}`);
+}
+            </code>
+          </pre>
         </section>
 
         <section class="section right-side-section" id="projects">
