@@ -1,0 +1,269 @@
+/************ GENERAL STYLES ************/
+@font-face {
+  font-family: Inter;
+  src: url("assets/fonts/Inter.ttf");
+}
+
+:root {
+  --border-radius: 7px;
+  /* colors */
+  --light-gray: #cdcdcd;
+  --light-gray2: #b0b0b0;
+  --gray1: #888888;
+  --gray2: #666666;
+  --dark-gray: #333333;
+  --dark-maroon: #5a0416;
+  --light-maroon: #fba6b8;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  word-spacing: 4px;
+  background: linear-gradient(var(--gray1), var(--gray2));
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--dark-maroon);
+}
+
+a:hover {
+  color: var(--light-maroon);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 100px 0px 20px 0px;
+}
+
+.section {
+  width: 80%;
+  max-width: 95%;
+  margin: 30px 0px;
+  padding: 40px 80px 60px 80px;
+
+  border-radius: var(--border-radius);
+  background-color: var(--light-gray);
+  box-shadow: 7px 7px 12px var(--dark-gray);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.right-side-section {
+  align-self: flex-end;
+}
+
+/************ HEADER ************/
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background: var(--light-gray);
+  box-shadow: 0px 0px 10px var(--dark-gray);
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+}
+
+.nav-list-item {
+  padding: 20px 0px;
+  margin: 0px 20px;
+}
+
+
+/************ MAIN ************/
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* profile */
+.profile {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 40px;
+  color: var(--dark-maroon);
+}
+
+.profile-wrapper {
+  width: 30%;
+}
+
+.profile-occupation {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.profile-avatar {
+  width: 90%;
+  max-width: 300px;
+  margin: 10px 0px;
+  border-radius: var(--border-radius);
+}
+
+.profile-text-wrapper {
+  width: 70%;
+  padding: 20px;
+}
+
+.profile-text {
+  margin: 15px 0px;
+}
+
+.profile-strengths-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  background-color: var(--light-gray2);
+  box-shadow: inset 0px 0px 5px var(--dark-gray);
+}
+
+.profile-strengths-title {
+  text-align: center;
+}
+
+.profile-strengths-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.profile-strengths-item {
+  color: var(--dark-maroon);
+}
+
+
+/* contacts */
+
+.contacts-item {
+  margin: 15px;
+}
+
+.contacts-link {
+  margin-left: 10px;
+}
+
+
+/* skills */
+.skills-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.skills-list-item {
+  width: 20%;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.skills-logo {
+  max-width: 50%;
+  margin-top: 10px;
+}
+
+/* code */
+.code-task-text {
+  margin-bottom: 20px;
+}
+
+.code-code {
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: var(--border-radius);
+  background: var(--light-gray2);
+  box-shadow: inset 0px 0px 5px var(--dark-gray);
+}
+
+
+/* projects */
+.projects-item {
+  margin: 30px 0px;
+}
+
+
+/* education */
+.education-item {
+  margin: 20px 0;
+}
+
+.education-item a {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.education-item:nth-child(3) a {
+  text-transform: none;
+}
+
+
+/************ FOOTER ************/
+.footer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  font-weight: bold;
+  color: var(--light-maroon);
+}
+
+.footer-link {
+  margin: 0 20px;
+  font-size: 30px;
+}
+
+.rss-logo {
+  width: 100%;
+  max-width: 150px;
+}
+
+.footer-year {
+  font-size: 60px;
+}

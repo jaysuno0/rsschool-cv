@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>CV | Daniil Kochkin</title>
+</head>
+<body>
+  <div class="container">
+      <header>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#contacts">contacts</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#skills">skills</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#code">code</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#projects">projects</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#education">education</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="section profile" id="profile">
+          <div class="profile-wrapper">
+            <h1 class="main-title">Daniil Kochkin</h1>
+            <p class="profile-occupation">Junor frontend developer</p>
+            <img class="profile-avatar" alt="authors-photo" src="assets/img/avatar.jpg"/>
+          </div>
+
+          <div class="profile-text-wrapper">
+            <p class="profile-text"> Hello!<br>
+            I am 25 years old and the last 5 years I was trying to become a part of many different activities. Half of that time I was a student of the Institute of foreign languages in PetrSU (Petrozavodsk State Univercity). My english developed to a pretty good level there, but I understood that languages and pedagogy is not the way I want to go.</p>
+
+            <p class="profile-text">As I left the University I tried plenty of different occupations, but most of them were able to hold my interest only for a couple of months. The situation changed with programming. A couple of years passed since I wrote my first "Hello World!". And it's great to understand that the deeeper I go inside programming the more it interests me.</p>
+
+            <p class="profile-text">I have a list of small "pet-rojects" and I got no "real work experience", but very eager to obtain it and of course "to help a world to become a better place".</p>
+          </div>
+
+          <div class="profile-strengths-wrapper">
+            <h2 class="profile-strengths-title section-title">strengths</h2>
+            <ul class="profile-strengths-list">
+              <li>
+                <p class="profile-strengths-item">diligent<p>
+              </li>
+              <li>
+                <p class="profile-strengths-item">reliable<p>
+              </li>
+              <li>
+                <p class="profile-strengths-item">honest<p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">contacts</h2>
+          <ul>
+            <li>
+              <p class="contacts-item">telegram: <a class="contacts-link" href="https://t.me/jaysun0" target="blank">JaySun0</a></p>
+            </li>
+            <li>
+              <p class="contacts-item">discord: <a class="contacts-link" href="https://discordapp.com/users/919525421001879582/" target="blank">JaySun0</a></p>
+            </li>
+            <li>
+              <p class="contacts-item">email: <span class="contacts-link">jaysun0@yandex.ru</span></p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section right-side-section" id="skills">
+          <h2 class="section-title">skills</h2>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <p>html</p>
+              <img class="skills-logo" alt="html logo" src="assets/skills-images/html-logo.png"/>
+            </li>
+            <li class="skills-list-item">
+              <p>css</p>
+              <img class="skills-logo" alt="css logo" src="assets/skills-images/css-logo.png"/>
+            </li>
+            <li class="skills-list-item">
+              <p>js</p>
+              <img class="skills-logo" alt="js logo" src="assets/skills-images/js-logo.png"/>
+            </li>
+            <li class="skills-list-item">
+              <p>git</p>
+              <img class="skills-logo" alt="git logo" src="assets/skills-images/git-logo.png"/>
+            </li>
+            <li class="skills-list-item">
+              <p>bem</p>
+              <img class="skills-logo" alt="bem logo" src="assets/skills-images/bem-logo.png"/>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title">code example</h2>
+          <a href="https://www.codewars.com/kata/554b4ac871d6813a03000035" target="_blank">task from codewars:</a>
+          <p class="code-task-text">In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number. Output string must be two numbers separated by a single space, and highest number is first.</p>
+            <pre class="code-code">
+              <code>
+function highAndLow(dat){
+  let strNumb = dat.split(' ');
+  
+  strNumb.sort((a, b) =>{
+    return a-b;
+  }).reverse();
+
+  return strNumb[0].concat(` ${strNumb[strNumb.length - 1]}`);
+}</code>
+            </pre>
+        </section>
+
+        <section class="section right-side-section" id="projects">
+          <h2 class="section-title">projects</h2>
+          <ul>
+            <li class="projects-item">
+              <a href="https://dakochkin.ru/show%20me/" target="_blank">"show me"</a>
+              <p>Examples of different designs for buttons with short css-code snippets.</p>
+            </li>
+            <li class="projects-item">
+              <a href="https://dakochkin.ru/Click%20Pick/" target="_blank">"click pick"</a>
+              <p>Small app to learn english words with cards.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">education</h2>
+          <ul>
+            <li class="education-item">
+              <p>Code Basics:
+                <a href="https://ru.code-basics.com/languages/html" target="_blank">html</a>
+                <a href="https://ru.code-basics.com/languages/css" target="_blank">css</a>
+                <a href="https://ru.code-basics.com/languages/javascript" target="_blank">js</a>
+              </p>
+            </li>
+            <li class="education-item">
+              <p>Udemy:
+                <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">html&css</a>
+                <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">js</a>
+              </p>
+            </li>
+            <li class="education-item">
+              <p>PetrSU:
+                <a href="https://petrsu.ru/structure/450/institutinostrannykh" target="_blank">Foreign languages faculty</a>
+              </p>
+            </li>
+            <li class="education-item">
+              <p>English:
+                <a href="https://ielts.ru/" target="_blank">IELTS</a>
+                (7.0 overall score, upper-intermediate)
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="footer-link" href="https://rs.school/js/" target="_blank"><img class="rss-logo" alt="rs-school logo" src="assets/img/rs_school_js.svg"></a>
+        <a class="footer-link" href="https://github.com/jaysuno0" target="_blank">github</a>
+        <p class="footer-year">2022</p>
+      </footer>
+  </div>
+</body>
+</html>
