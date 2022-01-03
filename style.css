@@ -4,7 +4,7 @@
   src: url("assets/fonts/Montserrat.ttf");
 }
 
-:root{
+:root {
   --border-radius: 7px;
   /* colors */
   --light-gray: #cdcdcd;
@@ -27,13 +27,18 @@ body {
   background: linear-gradient(var(--gray1), var(--gray2));
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.section{
+.section {
   width: 80%;
   margin: 30px 0;
   padding: 40px 80px;
@@ -43,11 +48,15 @@ body {
   box-shadow: 7px 7px 12px var(--dark-gray);
 }
 
+.right-side-section {
+  align-self: flex-end;
+}
+
 /************ HEADER ************/
 
 
 /************ MAIN ************/
-.main{
+.main {
   width: 100%;
 
   display: flex;
@@ -57,11 +66,11 @@ body {
 }
 
 /*profile*/
-.profile-section{
+.profile-section {
   width: 100%;
 }
 
-.main-title{
+.main-title {
   color: var(--dark-cyan);
 }
 .avatar {
@@ -71,7 +80,27 @@ body {
 
 
 /************ FOOTER ************/
+.footer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  font-weight: bold;
+  color: var(--light-gray);
+}
+
+
+.footer-link{
+  margin: 0 20px;
+}
+
 .rss-logo {
-  width: 10%;
+  width: 100%;
   max-width: 150px;
+}
+
+.footer-year{
+  font-size: 60px;
 }
