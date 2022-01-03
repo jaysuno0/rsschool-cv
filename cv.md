@@ -7,6 +7,7 @@ Junor frontend developer
 + telegram: [JaySun0](https://t.me/jaysun0)
 + discord: [JaySun0](https://discordapp.com/users/919525421001879582/)
 + email: jaysun0@yandex.ru
+
 ***
 
 #### About me
