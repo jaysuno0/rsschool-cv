@@ -4,6 +4,14 @@
   src: url("assets/fonts/Montserrat.ttf");
 }
 
+:root{
+  --light-gray: #dddddd;
+  --gray1: #888888;
+  --gray2: #666666;
+  --dark-cyan: #22999e;
+  --light-cyan: #77dee2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,18 +20,30 @@
 
 body {
   font-family: Montserrat, sans-serif;
+  background: linear-gradient(var(--gray1), var(--gray2));
 }
 
 .container {
+  margin: 0 auto;
   width: 80%;
   max-width: 1200px;
 }
 
+.section{
+  background-color: var(--light-gray);
+}
 
 /************ HEADER ************/
+.main-title{
+  color: var(--dark-cyan);
+}
 .avatar {
   width: 20%;
   max-width: 300px;
+}
+
+a{
+  color: var(--light-cyan)
 }
 
 
