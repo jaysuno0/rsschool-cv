@@ -11,8 +11,8 @@
   --gray1: #888888;
   --gray2: #666666;
   --dark-gray: #333333;
-  --dark-cyan: #22999e;
-  --light-cyan: #77dee2;
+  --dark-maroon: #5a0416;
+  --light-maroon: #fba6b8;
 }
 
 * {
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 20px;
   font-family: Montserrat, sans-serif;
   background: linear-gradient(var(--gray1), var(--gray2));
 }
@@ -66,18 +66,43 @@ a {
 }
 
 /*profile*/
-.profile-section {
+.profile {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-title {
-  color: var(--dark-cyan);
-}
-.avatar {
-  width: 20%;
-  max-width: 300px;
+  font-size: 40px;
+  color: var(--dark-maroon);
 }
 
+.profile-wrapper{
+  width: 30%;
+}
+
+.profile-occupation {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.profile-avatar {
+  width: 90%;
+  max-width: 300px;
+  margin: 10px 0;
+  border-radius: var(--border-radius);
+}
+
+.profile-text-wrapper {
+  width: 70%;
+  padding: 20px;
+}
+
+.profile-text{
+  margin: 15px 0;
+}
 
 /************ FOOTER ************/
 .footer {
@@ -90,7 +115,6 @@ a {
   font-weight: bold;
   color: var(--light-gray);
 }
-
 
 .footer-link{
   margin: 0 20px;
