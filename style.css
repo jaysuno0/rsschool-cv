@@ -71,6 +71,10 @@ ul{
   align-self: flex-end;
 }
 
+.styled-list {
+  list-style: disc;
+}
+
 /************ HEADER ************/
 
 
@@ -145,10 +149,8 @@ ul{
   color: var(--dark-maroon);
 }
 
+
 /* contacts */
-.contacts-list {
-  list-style: disc;
-}
 
 .contacts-item {
   margin: 15px;
@@ -157,6 +159,7 @@ ul{
 .contacts-link {
   margin-left: 10px;
 }
+
 
 /* skills */
 .skills-list {
@@ -170,6 +173,7 @@ ul{
 .skills-list-item {
   width: 20%;
   font-size: 22px;
+  text-transform: uppercase;
 }
 
 .skills-logo {
@@ -182,13 +186,27 @@ ul{
   margin-bottom: 20px;
 }
 
+
 /* projects */
-.projects-list {
-  list-style: disc;
-}
 .projects-item {
   margin: 30px 0px;
 }
+
+
+/* education */
+.education-item {
+  margin: 20px 0;
+}
+
+.education-item a {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.education-item:last-child a {
+  text-transform: none;
+}
+
 
 /************ FOOTER ************/
 .footer {
