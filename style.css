@@ -283,13 +283,13 @@ h2 {
 
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
   .container {
     width: 90%;
   }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   /* profile */
   .profile {
     display: flex;
@@ -322,23 +322,67 @@ h2 {
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .section {
-    width: 90%;
-    max-width: 95%;
+    width: 100%;
     padding: 40px 50px 60px 50px;
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
   .nav-list-item {
     padding: 10px 5px;
     margin: 0px 5px;
   }
 
-  .nav-list-item a{
+  .nav-list-item a {
     font-size: 18px;
   }
 
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .section {
+    padding: 10px 30px 20px 30px;
+  }
+
+  .education-list{
+    list-style: none;
+  }
+
+  .education-item p {
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .profile-text-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  ul {
+    list-style: none;
+  }
+  .contacts {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .contacts-item {
+    width: 60%;
+    margin: 20px 0px;
+  }
+
+  .section {
+    padding: 10px 10px 20px 15px;
+  }
 }
