@@ -46,11 +46,14 @@ function highAndLow(dat){
 ***
 
 #### Work exprerience:
-Got no work experience, but try hard to simulate it while studying.
+I have no work experience yet, but I try as hard as possible to simulate it while studying :)
 
 ***
 
 #### Education:
+**Rolling Scopes Sсhool**
++ [RS School. Курс JS/Frontend-разработка. Подготовительный этап](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)
+
 **Code Basics**:
 + [HTML](https://ru.code-basics.com/languages/html)
 + [CSS](https://ru.code-basics.com/languages/css)
