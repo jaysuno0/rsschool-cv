@@ -113,6 +113,7 @@ h2 {
 /* profile */
 .profile {
   width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -266,4 +267,122 @@ h2 {
 
 .footer-year {
   font-size: 60px;
+}
+
+
+/************ MEDIA QUERIES ************/
+@media screen and (max-width: 1200px){
+
+  .profile-wrapper {
+    width: 40%;
+  }
+
+  .profile-text-wrapper {
+    width: 60%;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* profile */
+  .profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .profile-strengths-list {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-text-wrapper {
+    width: 100%;
+  }
+
+  .profile-strengths-item {
+    margin: 10px 0;
+  }
+
+  .skills-list-item {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section {
+    width: 100%;
+    padding: 40px 50px 60px 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .nav-list-item {
+    padding: 10px 5px;
+    margin: 0px 5px;
+  }
+
+  .nav-list-item a {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .section {
+    padding: 10px 30px 20px 30px;
+  }
+
+  .education-list{
+    list-style: none;
+  }
+
+  .education-item p {
+    margin: 20px 0px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .profile-text-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  ul {
+    list-style: none;
+  }
+  .contacts {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+  }
+
+  .contacts-item {
+    width: 60%;
+    margin: 20px 0px;
+  }
+
+  .section {
+    padding: 10px 10px 20px 15px;
+  }
 }
