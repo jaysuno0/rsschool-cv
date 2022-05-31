@@ -1,0 +1,64 @@
+.section.profile {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-title {
+  font-size: 40px;
+  color: var(--dark-maroon);
+}
+
+.profile-wrapper {
+  width: 35%;
+}
+
+.profile-occupation {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.profile-avatar {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0px;
+  border-radius: var(--border-radius);
+}
+
+.profile-text-wrapper {
+  width: 65%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.profile-text {
+  margin: 15px 0px;
+}
+
+.profile-strengths-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  background-color: var(--light-gray2);
+  box-shadow: inset 0px 0px 5px var(--dark-gray);
+}
+
+.profile-strengths-title {
+  text-align: center;
+}
+
+.profile-strengths-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.profile-strengths-item {
+  color: var(--dark-maroon);
+}

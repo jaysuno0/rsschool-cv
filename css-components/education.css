@@ -1,0 +1,12 @@
+.education-item {
+  margin: 20px 0;
+}
+
+.education-item a {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.education-item:nth-child(3) a {
+  text-transform: none;
+}
