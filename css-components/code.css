@@ -1,0 +1,11 @@
+.code-task-text {
+  margin-bottom: 20px;
+}
+
+.code-code {
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: var(--border-radius);
+  background: var(--light-gray2);
+  box-shadow: inset 0px 0px 5px var(--dark-gray);
+}
