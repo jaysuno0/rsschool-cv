@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./assets/img/cv-icon.svg">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
   <title>CV | Daniil Kochkin</title>
 </head>
 <body>
@@ -89,41 +92,63 @@
           <h2 class="section-title">skills</h2>
           <ul class="skills-list">
             <li class="skills-list-item">
-              <p>html</p>
-              <img class="skills-logo" alt="html logo" src="assets/img/skills-images/html-logo.png"/>
+              <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">
+                <img class="skills-logo" alt="html logo" src="assets/img/skills-images/html-logo.png"/>
+                <p>HTML</p>
+              </a>
             </li>
             <li class="skills-list-item">
-              <p>css</p>
-              <img class="skills-logo" alt="css logo" src="assets/img/skills-images/css-logo.png"/>
+              <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">
+                <img class="skills-logo" alt="css logo" src="assets/img/skills-images/css-logo.png"/>
+                <p>CSS</p>
+              </a>
             </li>
             <li class="skills-list-item">
-              <p>js</p>
-              <img class="skills-logo" alt="js logo" src="assets/img/skills-images/js-logo.png"/>
+              <a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">
+                <img class="skills-logo" alt="js logo" src="assets/img/skills-images/js-logo.png"/>
+                <p>JS</p>
+              </a>
             </li>
             <li class="skills-list-item">
-              <p>git</p>
-              <img class="skills-logo" alt="git logo" src="assets/img/skills-images/git-logo.png"/>
+              <a href="https://git-scm.com/" target="_blank">
+                <img class="skills-logo" alt="git logo" src="assets/img/skills-images/git-logo.png"/>
+                <p>git</p>
+              </a>
             </li>
             <li class="skills-list-item">
-              <p>bem</p>
-              <img class="skills-logo" alt="bem logo" src="assets/img/skills-images/bem-logo.png"/>
+              <a href="https://ru.bem.info/methodology/" target="_blank">
+                <img class="skills-logo" alt="bem logo" src="assets/img/skills-images/bem-logo.png"/>
+                <p>BEM</p>
+              </a>
+            </li>
+            <li class="skills-list-item">
+              <a href="https://webpack.js.org/" target="_blank">
+                <img class="skills-logo" alt="webpack logo" src="assets/img/skills-images/webpack-logo.png"/>
+                <p>webpack</p>
+              </a>
+            </li>
+            <li class="skills-list-item">
+              <a href="https://sass-lang.com/" target="_blank">
+                <img class="skills-logo" alt="sass logo" src="assets/img/skills-images/sass-logo.png"/>
+                <p>SASS</p>
+              </a>
             </li>
           </ul>
         </section>
 
         <section class="section" id="code">
           <h2 class="section-title">code example</h2>
-          <a href="https://www.codewars.com/kata/554b4ac871d6813a03000035" target="_blank">task from codewars:</a>
-          <p class="code-task-text">In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number. Output string must be two numbers separated by a single space, and highest number is first.</p>
+          <a href="https://www.codewars.com/kata/558cb3df5f511f40d500001d/javascript" target="_blank">task from codewars:</a>
+          <p class="code-task-text">Write a "nouveau" function that replicates all the behavior of the new operator.</p>
             <pre class="code-code">
               <code>
-function highAndLow(dat){
-  let strNumb = dat.split(' ');
-  strNumb.sort((a, b) =>{
-    return a-b;
-  }).reverse();
+function nouveau(Constructor, ...args) {
+  let obj = Object.create(Constructor.prototype);
+  const constructorResult = Constructor.apply(obj, args);
 
-  return strNumb[0].concat(` ${strNumb[strNumb.length - 1]}`);
+  if (constructorResult && (typeof constructorResult === 'object' || typeof constructorResult === 'function')) obj = constructorResult;
+  
+  return obj;
 }</code>
             </pre>
         </section>
@@ -152,6 +177,10 @@ function highAndLow(dat){
               <p>Custom virtual keyboard.</p>
             </li>
             <li class="projects-item">
+              <a href="https://jaysuno0.github.io/gridLayout/" target="_blank">bike-shop</a>
+              <p>Static webpage to train css-grid.</p>
+            </li>
+            <li class="projects-item">
               <a href="https://dakochkin.ru/show%20me/" target="_blank">show me</a>
               <p>Examples of different designs for buttons with short css-code snippets.</p>
             </li>
@@ -167,15 +196,21 @@ function highAndLow(dat){
           <ul class="education-list">
             <li class="education-item">
               <p>Code Basics:
-                <a href="https://ru.code-basics.com/languages/html" target="_blank">html</a>
-                <a href="https://ru.code-basics.com/languages/css" target="_blank">css</a>
-                <a href="https://ru.code-basics.com/languages/javascript" target="_blank">js</a>
+                <a href="https://ru.code-basics.com/languages/html" target="_blank">HTML</a>
+                <a href="https://ru.code-basics.com/languages/css" target="_blank">CSS</a>
+                <a href="https://ru.code-basics.com/languages/javascript" target="_blank">JS</a>
+              </p>
+            </li>
+            <li class="education-item">
+              <p>Rolling Scopes School:
+                <a href="https://rs.school/js-stage0/" target="_blank">HTML/CSS/JS</a>
+                <a href="https://app.rs.school/certificate/rmmpib4w" target="_blank">certificate</a>
               </p>
             </li>
             <li class="education-item">
               <p>Udemy:
-                <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">html&css</a>
-                <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">js</a>
+                <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">HTML/CSS</a>
+                <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">JS</a>
               </p>
             </li>
             <li class="education-item">
@@ -195,10 +230,11 @@ function highAndLow(dat){
       </main>
 
       <footer class="footer">
-        <a class="footer-link" href="https://rs.school/js/" target="_blank"><img class="rss-logo" alt="rs-school logo" src="assets/img/rs_school_js.svg"></a>
+        <a class="footer-link" href="https://rs.school/js/" target="_blank"><img class="rss-logo" alt="rs-school logo" src="assets/img/rss-logo.svg"></a>
         <a class="footer-link" href="https://github.com/jaysuno0" target="_blank">github</a>
         <p class="footer-year">2022</p>
       </footer>
   </div>
+  <script>hljs.highlightAll();</script>
 </body>
 </html>
