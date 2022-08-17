@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32px"
+   height="32px"
+   viewBox="-2.5 0 32 32"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="cv-icon.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="47.389831"
+     inkscape:cy="7.4576271"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid120" />
+  </sodipodi:namedview>
+  <title
+     id="title2">paper</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="icons"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="ui-gambling-website-lined-icnos-casinoshunter"
+       transform="translate(-1776.000000, -284.000000)"
+       fill="#1C1C1F"
+       fill-rule="nonzero">
+      <g
+         id="1"
+         transform="translate(1350.000000, 120.000000)">
+        <path
+           d="M446,163.999494 L446,168.980703 C446,170.609602 447.142315,172 448.659002,172 L453,171.999494 L453,193 C453,194.656854 451.656854,196 450,196 L429,196 C427.343146,196 426,194.656854 426,193 L426,167 C426,165.343146 427.343146,164 429,164 L446,163.999494 Z M448.339153,164.498753 L452.32146,168.004143 C452.752813,168.383838 453,168.930731 453,169.505391 L453,169.999494 L448.659002,170 C448.343206,170 448,169.582258 448,168.980703 L448.001029,164.25843 C448.120967,164.326148 448.234368,164.406517 448.339153,164.498753 Z"
+           id="paper" />
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#888888;stroke-width:6.77966;stroke-dasharray:162.712, 6.77966;paint-order:markers fill stroke;fill-opacity:1"
+     d="M 3.9320953,31.559322 C 3.3660013,31.219393 3.1116252,30.952355 2.8194495,30.391296 L 2.440678,29.663948 2.4436559,16.018415 C 2.446586,2.5919501 2.4510593,2.3631247 2.7222979,1.7651502 3.0831003,0.96972282 3.3255758,0.71561931 4.0971873,0.32432738 L 4.7367475,0 h 8.8742115 8.874211 l 0.04555,2.8854846 c 0.04369,2.7678283 0.05937,2.9121776 0.384534,3.5401235 0.197127,0.380689 0.58572,0.8329 0.928593,1.0806171 l 0.589611,0.4259782 2.562931,0.048519 2.562933,0.048519 V 18.835455 29.641669 l -0.353001,0.708381 c -0.377205,0.756952 -0.92279,1.246383 -1.667232,1.495631 C 27.209351,31.956081 23.888961,32 15.872073,32 H 4.6659696 Z"
+     id="path1076"
+     transform="translate(-2.5)" />
+  <path
+     style="fill:#888888;fill-opacity:1;stroke-width:6.77966;stroke-dasharray:162.712, 6.77966;paint-order:markers fill stroke"
+     d="M 24.794683,5.8427496 C 24.480846,5.5888762 24.473754,5.5317742 24.43262,2.9274953 c -0.02807,-1.7773294 0.0048,-2.65630886 0.09922,-2.65630886 0.07764,0 0.737203,0.52605764 1.465684,1.16901696 0.728482,0.6429593 1.728875,1.526546 2.223095,1.9635258 0.980637,0.8670598 1.338706,1.4581733 1.338706,2.2099832 v 0.4879825 h -2.222267 c -1.985107,0 -2.256428,-0.027635 -2.542372,-0.2589453 z"
+     id="path1561"
+     transform="translate(-2.5)" />
+  <text
+     xml:space="preserve"
+     style="font-size:20px;line-height:2.05;font-family:sans-serif;fill:#5a0416;fill-opacity:1"
+     x="0.83398438"
+     y="21.488281"
+     id="text1617"><tspan
+       sodipodi:role="line"
+       id="tspan1615"
+       x="0.83398438"
+       y="21.488281"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#5a0416;fill-opacity:1">cv</tspan></text>
+  <metadata
+     id="metadata2812">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>paper</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

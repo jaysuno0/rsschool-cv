@@ -1,9 +1,10 @@
-/* GENERAL STYLES */
+/***** GENERAL STYLES *****/
 @import url('css-components/header.css');
 @import url('css-components/profile.css');
 @import url('css-components/contacts.css');
 @import url('css-components/skills.css');
 @import url('css-components/code.css');
+@import url('css-components/code-snippet.css');
 @import url('css-components/projects.css');
 @import url('css-components/education.css');
 @import url('css-components/footer.css');
@@ -22,7 +23,7 @@
   --gray2: #666666;
   --dark-gray: #333333;
   --dark-maroon: #5a0416;
-  --light-maroon: #fba6b8;
+  --light-maroon: #f27590;
 }
 
 * {
@@ -89,8 +90,18 @@ h2 {
   align-self: flex-end;
 }
 
+.code-code .hljs {
+  background: var(--gray);
+}
 
-/* MEDIA QUERIES */
+/***** MEDIA QUERIES *****/
+@media screen and (max-width: 1300px){
+
+  .skills-list-item {
+    width: 25%;
+  }
+}
+
 @media screen and (max-width: 1200px){
 
   .profile-wrapper {
