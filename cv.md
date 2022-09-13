@@ -12,7 +12,7 @@ Junor frontend developer
 
 #### About me
 Hello!
-I am 25 years old and the last 5 years I was trying to become a part of many different activities. Half of that time I was a student of the Institute of foreign languages in PetrSU (Petrozavodsk State Univercity). My english developed to a pretty good level there, but I understood that languages and pedagogy is not the way I want to go. As I left the University I tried plenty of different occupations, but most of them were able to hold my interest only for a couple of months. The situation changed with programming. A couple of years passed since I wrote my first "Hello World!". And it's great to understand that the deeeper I go inside programming the more it interests me. I have a list of small "pet-rojects" and I got no "real work experience", but very eager to obtain it and of course "to help a world to become a better place".
+I am 25 years old and the last 5 years I was trying to become a part of many different activities. Half of that time I was a student of the Institute of foreign languages in PetrSU (Petrozavodsk State Univercity). My english developed to a pretty good level there, but I understood that languages and pedagogy is not the way I want to go. As I left the University I tried plenty of different occupations, but most of them were able to hold my interest only for a couple of months. The situation changed with programming. A couple of years passed since I wrote my first "Hello World!". And it's great to understand that the deeper I go inside programming the more it interests me. I have a list of small "pet-rojects" and I got no "real work experience", but very eager to obtain it and of course "to help a world to become a better place".
 
 **strengths**:
 + diligent
