@@ -222,10 +222,6 @@ h2 {
     padding: 20px;
   }
 
-  .profile {
-    padding: 20px 40px;
-  }
-
   .contacts-list {
     padding-left: 20px;
   }
@@ -248,6 +244,10 @@ h2 {
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    font-size: 18px;
+  }
+
   .nav-list {
     width: 70%;
   }
@@ -269,6 +269,10 @@ h2 {
 
   .profile-title {
     align-self: center;
+  }
+
+  .profile-text-wrapper {
+    text-align: left;
   }
 
   .contacts {
@@ -302,16 +306,16 @@ h2 {
 }
 
 @media screen and (max-width: 350px) {
-  ul {
-    list-style: none;
+  body {
+    font-size: 16px;
   }
 
   .contacts-list {
     padding: 0px;
+    list-style: none;
   }
 
   .nav-list {
     width: 90%;
   }
-
 }
